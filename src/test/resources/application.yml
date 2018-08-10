@@ -1,8 +1,14 @@
+---
+spring:
+  profiles: test
 cached:
   url: https://spring.io/img/spring-platform-watermark-3a1b9ff25a20c68852696041d21275c0.png
+
 
 ---
 spring:
   profiles: redis
   cache:
     cache-names: cache1
+cached:
+  url: https://spring.io/img/spring-platform-watermark-3a1b9ff25a20c68852696041d21275c0.png
